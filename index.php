@@ -92,7 +92,7 @@
                                     <td>';
                                     foreach(getTeamUser($user['id']) as $teamuser)
                                     {
-                                        echo $teamuser['name'];
+                                        echo $teamuser['name'] . ', ';
                                     }
                                 echo '</td>
                                 </tr>';
